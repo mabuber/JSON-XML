@@ -1,0 +1,141 @@
+{
+    "Carrefour": [
+        {
+            "nombre": "Carrefour Alfonso Molina",
+            "direccion": "Rúa Francisco Pérez Carballo, 5",
+            "ciudad": "A Coruña",
+            "cp": "15008",
+            "geolocalizacion": "43.338766, -8.408554",
+
+            "ofertas": [
+                {
+                    "tipo": "2x1",
+                    "producto": "arroz",
+                    "vigencia": "1/4/2023-30/4/2023"
+                },
+                {
+                    "tipo": "10%",
+                    "producto": "mariscos",
+                    "vigencia": "todos los martes"
+                }
+            ],
+
+            "productos": [
+                {
+                    "producto": "yogurt natural",
+                    "seccion": "yogures",
+                    "unidadMedida": "pack",
+                    "unidades": 1,
+                    "precio": 0.80,
+                    "adquirido": true,
+                    "descuento": false
+                },
+                {
+                    "producto": "arroz",
+                    "seccion": "arroz y cous cous",
+                    "unidadMedida": "bolsa",
+                    "unidades": 2,
+                    "precio": 1.30,
+                    "adquirido": true,
+                    "descuento": true
+                },
+                {
+                    "producto": "leche entera",
+                    "seccion": "leches y bebidas vegetales",
+                    "unidadMedida": "litro",
+                    "unidades": 1,
+                    "precio": 1.12,
+                    "adquirido": false,
+                    "descuento": false
+                }
+            ]
+        }
+    ],
+
+    "Lidl": [
+        {
+            "nombre": "Lidl Av. Arteixo",
+            "direccion": "Rúa Newton, 36",
+            "ciudad": "A Coruña",
+            "cp": "15008",
+            "geolocalizacion": "43.347304, -8.427544",
+
+            "ofertas": [
+                {
+                    "tipo": "15%",
+                    "producto": "vinos blancos",
+                    "vigencia": "3/4/2023-7/4/2023"
+                }
+            ],
+
+            "productos": [
+                {
+                    "producto": "naranjas",
+                    "seccion": "fruteria",
+                    "unidadMedida": "kg",
+                    "unidades": 1,
+                    "precio": 2.20,
+                    "adquirido": true,
+                    "descuento": false
+                },
+                {
+                    "producto": "pechuga de pollo",
+                    "seccion": "carnes",
+                    "unidadMedida": "g",
+                    "unidades": 600,
+                    "precio": 4.10,
+                    "adquirido": true,
+                    "descuento": true
+                }
+            ]
+        }
+    ],
+
+    "Mercadona": [
+        {
+            "nombre": "Mercadona Carballo",
+            "direccion": "Rúa Vicente Risco",
+            "ciudad": "Carballo",
+            "cp": "15100",
+            "geolocalizacion": "43.209972, -8.694889",
+
+            "ofertas": [
+                {
+                    "tipo": "5%",
+                    "producto": "fruteria",
+                    "vigencia": "5/4/2023"
+                }
+            ],
+            
+            "productos": [
+                {
+                    "producto": "manzanas",
+                    "seccion": "fruteria",
+                    "unidadMedida": "kg",
+                    "unidades": 1,
+                    "precio": 1.79,
+                    "adquirido": true,
+                    "descuento": true
+                },
+                {
+                    "producto": "peras",
+                    "seccion": "fruteria",
+                    "unidadMedida": "kg",
+                    "unidades": 1,
+                    "precio": 2.10,
+                    "adquirido": false,
+                    "descuento": true
+                },
+                {
+                    "producto": "gel de ducha",
+                    "seccion": "perfumeria",
+                    "unidadMedida": "bote",
+                    "unidades": 1,
+                    "precio": 1.90,
+                    "adquirido": true,
+                    "descuento": false
+                }
+            ]
+        }
+    ]
+}
